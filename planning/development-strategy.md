@@ -1,55 +1,102 @@
-# Project Name
+# Rekha-Portfolio
 
-<!-- describe your project -->
-
----
-
-## Setup
-
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+This is my portfolio.
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Home page
 
-## user story
+## Title and navigation
 
-<!-- each issue created from this section will have the `for: user story` label -->
+### As a user I want to see the title and navigation bar of the page
 
-> "as a ... i can ... so that ..."
+- This user story is developed on branch `title-nav`.
+- This branch is merged to `main` branch after completion.
 
-<!-- write any extra notes or description -->
+### HTML
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+- add `nav`
+- add `title`
+- add `div`
 
-### Logic: user story
+### CSS
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add class `title` to `title`
+- add class `container` to `div`
 
-### Interface: user story
+## Image and Description
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### As a user I want to see the image and small description about the person
 
-### Interaction: user story
+- This user story is developed on branch `img-description`.
+- This branch is merged to `main` branch after completion.
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### HTML
 
-### Documentation: user story
+- add `img`
+- add `p`
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### CSS
+
+- add class `title-image` to `img`
+- add class `description` to `a`
+
+## About page
+
+## Title, image and description
+
+### As a user I want to see the title, image and description of the page
+
+- This user story is developed on branch `about-title`.
+- This branch is merged to `main` branch after completion.
+
+### HTML
+
+- add `h1`
+- add `img`
+- add `p`
+
+### CSS
+
+- add class `about-title` to `h1`
+- add class `about-img` to `img`
+- add class `about-description` to `p`
+
+## Nav-links
+
+### As a user I want see some link to show about skills, education, experience
+
+      and projects.
+
+- This user story is developed on branch `nav-links`.
+- This branch is merged to `main` branch after completion.
+
+### HTML
+
+- add `nav`
+- add `div`
+
+### CSS
+
+- add class `about-links` to `nav`
+- add class `about-container` to `div`
+
+## Contact page
+
+## Contact
+
+### As a user I want to see the contact details and feedback form
+
+- This user story is developed on branch `contact`.
+- This branch is merged to `main` branch after completion.
+
+### HTML
+
+- add `div`
+- add `ul`
+- add `a`
+
+### CSS
+
+- add class `contact` to `div`
+- add class `contact-list` to `ul`

@@ -1,30 +1,46 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+## Home
 
-## Must-Haves
+### Must-Haves
 
-> these are necessary for basic usability
+- [ ] As a user I can read the title and nav bar of the page
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+  - there is a title and nav bar in front of the page
 
-## Should-Haves
+- [ ] As a user I want to see the image and small description about the person.
 
-> these will complete the user experience, but are not necessary
+  - there is a image and small description about the person.
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### Should-Haves
 
-## Could-Haves
+### Could-Haves
 
-> would be really cool ... if there's time
+## About
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+### Must-Haves
+
+- [ ] As a user I want to see the title, image and description of the page.
+
+  - there is a of title, image and description of the page.
+
+- [ ] As a user I want see some link to show about skills, education, experience
+      and projects.
+
+  - there is a link to show about skills, education, experience and projects..
+
+### Should-Haves
+
+### Could-Haves
+
+## Contact
+
+### Must-Haves
+
+- [ ] As a user I want to see the contact details and feedback form.
+
+  - there is a contact details and feedback forms.
+
+### Should-Haves
+
+### Could-Haves
