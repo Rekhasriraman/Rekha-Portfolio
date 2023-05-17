@@ -17,7 +17,14 @@
     "Verwijs",
     "profolio",
     "Todos",
-    "Sriraman"
+    "Sriraman",
+    "opentab",
+    "ISTQB",
+    "tablinks",
+    "tabcontents",
+    "tabname",
+    "tablink",
+    "tabcontent"
   ],
   "ignorePaths": [
     "node_modules/**",
