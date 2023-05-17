@@ -6,6 +6,8 @@
   background-color: whitesmoke;
 }
 
+/* home page */
+
 .title {
   position: relative;
   width: 100%;
@@ -44,12 +46,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: red;
+  color: orange;
 }
 
 .description {
   margin-left: 8%;
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: 15%;
 }
 
 .description h1 {
@@ -67,15 +70,15 @@ span {
   line-height: 22px;
 }
 
-.image {
-  width: 48%;
+.images {
+  width: 45%;
   height: 80%;
   position: absolute;
   bottom: 0;
   right: 100px;
 }
 
-image img {
+.images img {
   height: 100%;
   position: absolute;
   left: 50%;
@@ -84,10 +87,39 @@ image img {
   transition: bottom 1s, left ls;
 }
 
-.image:hover .shape {
-  bottom: 40px;
+/* about page */
+#about {
+  padding: 80px 0;
+  color: orange;
 }
 
-.image:hover .photo {
-  left: 48%;
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 0;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+}
+
+.about-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: orange;
+}
+
+.about-col-2 p {
+  margin-right: 20%;
+  padding-right: 20%;
+  display: flexbox;
 }
