@@ -32,6 +32,62 @@ nav ul li a {
   color: black;
 }
 
+.description a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
 nav ul li a:hover {
   color: red;
+}
+
+.description {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.description h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+span {
+  color: orange;
+}
+
+.description p {
+  color: #555;
+  line-height: 22px;
+}
+
+.image {
+  width: 48%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+image img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  transition: bottom 1s, left ls;
+}
+
+.image:hover .shape {
+  bottom: 40px;
+}
+
+.image:hover .photo {
+  left: 48%;
 }
