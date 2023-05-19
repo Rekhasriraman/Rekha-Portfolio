@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rekha-Portfolio</title>
     <link rel="stylesheet" href="../styles/index.css" />
+    <script
+      src="https://kit.fontawesome.com/0c0133fc19.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <div id="header">
     <div class="title">
       <nav>
         <img class="logo" src="../public/logo1.png" alt="logo" />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="description">
@@ -24,13 +29,17 @@
           This is my official portfolio website to shows all <br />
           Details about my work experience
         </p>
-        <a href="#">Download CV</a>
+        <a href="../public/rekha CV.pdf">Download CV</a>
       </div>
     </div>
     <div class="images">
       <img class="photo" src="../public/rekha2.png" alt="rekha-photo" />
     </div>
-    <div id="about">
+    </div>
+    <hr>
+    <!-- About page -->
+    
+    <div id="about"> 
       <div class="about-container">
         <div class="about-row">
           <div class="about-col-1">
@@ -39,7 +48,7 @@
           <div class="about-col-2">
             <h1 class="about-title">About me</h1>
             <p>
-              I'm a personable, driven and knowledgeable sales associate with 3
+              I'm a personable, driven and knowledgeable IT sales operation associate with 3
               years of experience in providing tailored recommendations to
               customers. My sales expertise has helped companies increase
               revenues by 15% year-over-year. My values regarding personalized
@@ -49,17 +58,13 @@
             <br />
             <p>
               I am well-versed administrative assistant and document specialist
-              with five years of experience providing educational institute.
-              Helping others and sharing knowledge are two beliefs to me imparts
-              every day. My experience, positive attitude and willingness to
-              help others allow him to excel in administrative roles.
+              with five years of experience in educational institute.
+              Helping others and sharing knowledge are two core strengths. My experience, positive attitude and willingness to
+              help others allow me to excel in administrative roles.
             </p>
             <br />
             <p>
-              And i well-versed web developer i can create more creative and
-              professional website. My dedication is continuously learning about
-              new web design trends and concepts has made me a valuable
-              developer.
+              As a web developer, am responsible for assisting with the creation of website and updating existing web applications using scripting languages, assisting with coding, testing, design adjustment and client reviews.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -103,6 +108,65 @@
         </div>
       </div>
     </div>
+    <hr>
+    <!-- contact page-->
+    <div id="contact">
+      <div class="content">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p> Rue de la ferme<br> 1210 Saint Josse Ten Noode <br> Belgium</bt></p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>rekha.sri85@gmail.com</p>
+            </div>
+          </div>
+          <div class="social-icons">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/feed/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Rekhasriraman"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        </div>
+        <div class="contactForm">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");

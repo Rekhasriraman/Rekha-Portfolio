@@ -11,4 +11,4 @@
 
 ## Wireframe(s)
 
-> ![Design](../public/Design-portfolio.png)
+> ![Design](../public/design-portfolio.png)
