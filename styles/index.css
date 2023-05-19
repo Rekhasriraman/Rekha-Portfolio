@@ -6,7 +6,8 @@
 }
 
 /* home page */
-#header {
+
+#backgroundImage {
   background-image: url(../public/about-bg.jpg);
 }
 
@@ -32,8 +33,9 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
   color: black;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .description a {
@@ -43,7 +45,7 @@ nav ul li a {
   font-weight: bold;
   color: #fff;
   display: inline-block;
-  margin: 60px 0;
+  margin: 60px;
   border-radius: 5px;
 }
 
@@ -61,13 +63,14 @@ nav ul li a:hover {
 
 .description {
   margin-left: 8%;
-  margin-top: 20%;
+  margin-top: 15%;
+  margin-bottom: 20%;
 }
 
 .description h1 {
   font-size: 50px;
   color: black;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 span {
@@ -77,14 +80,16 @@ span {
 .description p {
   color: #555;
   line-height: 22px;
+  font-size: 20px;
 }
 
 .images {
   width: 45%;
-  height: 60%;
+  height: 90%;
   position: absolute;
   bottom: 10%;
   right: 100px;
+  top: 15%;
 }
 
 .images img {
@@ -100,7 +105,8 @@ span {
 #about {
   padding: 80px 0;
   color: orange;
-  background-image: url(../public/about-bg.jpg);
+
+  /* background-image: url(../public/about-bg.jpg); */
 }
 
 .about-row {
@@ -117,9 +123,10 @@ span {
   margin-bottom: 80px;
 }
 
-.about-col-2 p {
+.para {
   text-align: justify;
   font-size: 20px;
+  margin-right: 50%;
 }
 
 .about-col-1 img {
@@ -143,6 +150,11 @@ span {
   display: flex;
   margin: 60px 0 40px;
   color: orange;
+}
+
+.tab-titles p {
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .tab-links {
@@ -189,8 +201,8 @@ span {
 
 .contactForm h2 {
   font-size: 40px;
-  color: orange;
-  font-weight: 500;
+  color: rgb(249, 165, 8);
+  font-weight: 600;
 }
 
 #contact {
@@ -201,12 +213,15 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../public/about-bg.jpg);
+
+  /* background-image: url(../public/about-bg.jpg); */
 }
 
 #contact .content {
   max-width: 800px;
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #contact .content h2 {
@@ -268,6 +283,7 @@ span {
 
 .social-icons {
   margin-top: 60px;
+  margin-bottom: 10%;
 }
 
 .social-icons a:hover {
@@ -276,8 +292,9 @@ span {
 }
 
 .contactForm {
-  width: 30%;
+  width: 25%;
   padding: 5px;
+  margin-bottom: 10%;
 }
 
 .contactForm .inputBox {
@@ -300,7 +317,7 @@ span {
 
 .contactForm .inputBox span {
   position: absolute;
-  left: 0;
+  left: 3px;
   padding: 5px 0;
   font-size: 16px;
   margin: 10px 0;
