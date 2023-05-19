@@ -24,7 +24,10 @@
     "tabcontents",
     "tabname",
     "tablink",
-    "tabcontent"
+    "tabcontent",
+    "ferme",
+    "Josse",
+    "Noode"
   ],
   "ignorePaths": [
     "node_modules/**",

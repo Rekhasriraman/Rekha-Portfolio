@@ -3,10 +3,12 @@
   padding: 0%;
   font-family: sans-serif;
   box-sizing: border-box;
-  background-color: whitesmoke;
 }
 
 /* home page */
+#header {
+  background-image: url(../public/about-bg.jpg);
+}
 
 .title {
   position: relative;
@@ -26,7 +28,7 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 
 nav ul li a {
@@ -41,8 +43,16 @@ nav ul li a {
   font-weight: bold;
   color: #fff;
   display: inline-block;
-  margin: 30px 0;
+  margin: 60px 0;
   border-radius: 5px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 40px;
+  margin-right: 15px;
+  color: orange;
+  display: inline-block;
 }
 
 nav ul li a:hover {
@@ -52,13 +62,12 @@ nav ul li a:hover {
 .description {
   margin-left: 8%;
   margin-top: 20%;
-  margin-bottom: 15%;
 }
 
 .description h1 {
   font-size: 50px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 span {
@@ -72,9 +81,9 @@ span {
 
 .images {
   width: 45%;
-  height: 80%;
+  height: 60%;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   right: 100px;
 }
 
@@ -91,6 +100,7 @@ span {
 #about {
   padding: 80px 0;
   color: orange;
+  background-image: url(../public/about-bg.jpg);
 }
 
 .about-row {
@@ -103,7 +113,17 @@ span {
   flex-basis: 35%;
 }
 
+.about-col-2 h1 {
+  margin-bottom: 80px;
+}
+
+.about-col-2 p {
+  text-align: justify;
+  font-size: 20px;
+}
+
 .about-col-1 img {
+  margin-top: 90px;
   width: 100%;
   border-radius: 15px;
 }
@@ -121,7 +141,7 @@ span {
 
 .tab-titles {
   display: flex;
-  margin: 20px 0 40px;
+  margin: 60px 0 40px;
   color: orange;
 }
 
@@ -163,4 +183,147 @@ span {
 
 .tab-contents.active-tab {
   display: block;
+}
+
+/* Contact page */
+
+.contactForm h2 {
+  font-size: 40px;
+  color: orange;
+  font-weight: 500;
+}
+
+#contact {
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../public/about-bg.jpg);
+}
+
+#contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+#contact .content h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: orange;
+  margin-bottom: 40px;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color: orange;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 30px;
+  height: 30px;
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: orange;
+}
+
+.social-icons {
+  margin-top: 60px;
+}
+
+.social-icons a:hover {
+  color: black;
+  transform: translateY(-5px);
+}
+
+.contactForm {
+  width: 30%;
+  padding: 5px;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5%;
+  color: black;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: orange;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox button[type="submit"] {
+  width: 100px;
+  background: orange;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }

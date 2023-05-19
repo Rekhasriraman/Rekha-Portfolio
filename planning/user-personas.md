@@ -4,26 +4,34 @@
 
 ## User Persona: Mark
 
-![img](../public/Mark.jpeg)
+![img](../public/mark.jpeg)
 
 - **Bio**: Mark is 23 years old, recently he completed his graduation. He want
   to create his portfolio.
-- **Needs/Goals**: He needs creative and professional portfolio.
-- **Frustrations**: Mark had frustration when he can't find the professional and
-  creative profolio website.
-- **Scenario 1**: Mark want to create his own portfolio with more creative and
-  professional.
+- **Needs/Goal**: To create a simple but creative portfolio to showcase his
+  potential skills and also his internship programmes.
+- **Frustrations**: Mark had frustration when he can't find the template
+  matching his portfolio requirements. Has he could only find professional
+  portfolio with extensive and exhaustive details.
+- **Scenario 1**: Mark want to create his own simple portfolio but at the same
+  time with creative and professional touch.
 
 ---
 
 ## User Persona: William
 
-![img](../public/William.jpeg)
+![img](../public/william.jpeg)
 
-- **Bio**: William is 40 years old, he is IT requiter. He is searching the front
-  end web developer.
-- **Needs/Goals**: He needs junior web developer who have more creative and
-  professional.
-- **Frustrations**: Mark had frustration when he can't find the right person of
-  this role.
-- **Scenario 1**: Mark need to find a front end web developer.
+- **Bio**: William is 40 years old, he is an IT requiter responsible for
+  handling all aspects of the recruitment process for professionals in the
+  information technology field. He developes creative and innovative strategies
+  to reach talent, deploy outreach campaigns, engage with talent, and perform
+  screenings and background checks.
+- **Needs/Goals**: He is looking for a Junior Web Developer works with a team of
+  developers to create new website and applications.
+- **Frustrations**: He had frustration when he can't find the right person of
+  this role. He needs junior web developer who have relevant work experience and
+  creative mindset with hands on experience in latest technology.
+- **Scenario 1**: William need to find a front end web developer with multifaced
+  personality having all around skills in front end web development, IT testing
+  and business IT sales knowledge to understand the business requirements.
