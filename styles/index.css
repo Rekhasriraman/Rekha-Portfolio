@@ -126,13 +126,14 @@ span {
 .para {
   text-align: justify;
   font-size: 20px;
-  margin-right: 50%;
+  margin-right: 40%;
 }
 
 .about-col-1 img {
   margin-top: 90px;
   width: 100%;
   border-radius: 15px;
+  margin-left: 10px;
 }
 
 .about-col-2 {
@@ -343,4 +344,74 @@ span {
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+  .images {
+    top: 35%;
+  }
+
+  .about-col-1 img {
+    margin-top: 225px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .para {
+    margin-right: 15%;
+  }
+
+  .contactForm h2 {
+    font-size: 28px;
+  }
+
+  .contactForm {
+    width: 31%;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .images img {
+    height: 79%;
+    left: 71%;
+    bottom: 153px;
+  }
+
+  .description h1 {
+    font-size: 36px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  .para {
+    font-size: 15px;
+    margin-right: 15%;
+    margin-left: 5%;
+  }
+
+  .about-col-2 h1 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+
+  .about-col-1 img {
+    margin-left: 50%;
+    width: 200%;
+    margin-top: 20px;
+  }
+
+  .contactForm h2 {
+    font-size: 20px;
+  }
 }
