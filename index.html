@@ -14,32 +14,32 @@
   </head>
   <body>
     <div id="header">
-    <div class="title">
-      <nav>
-        <img class="logo" src="../public/logo1.png" alt="logo" />
-        <ul>
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="description">
-        <h1>I'm Rekha <span>Sriraman</span></h1>
-        <p>
-          This is my official portfolio website to shows all <br />
-          Details about my work experience
-        </p>
-        <a href="../public/rekha CV.pdf">Download CV</a>
+      <div class="title">
+        <nav>
+          <img class="logo" src="../public/logo1.png" alt="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="description">
+          <h1>I'm Rekha <span>Sriraman</span></h1>
+          <p>
+            This is my official portfolio website to shows all <br />
+            Details about my work experience
+          </p>
+          <a href="../public/CV.pdf">Download CV</a>
+        </div>
+      </div>
+      <div class="images">
+        <img class="photo" src="../public/rekha2.png" alt="rekha-photo" />
       </div>
     </div>
-    <div class="images">
-      <img class="photo" src="../public/rekha2.png" alt="rekha-photo" />
-    </div>
-    </div>
-    <hr>
+    <hr />
     <!-- About page -->
-    
-    <div id="about"> 
+
+    <div id="about">
       <div class="about-container">
         <div class="about-row">
           <div class="about-col-1">
@@ -48,23 +48,28 @@
           <div class="about-col-2">
             <h1 class="about-title">About me</h1>
             <p>
-              I'm a personable, driven and knowledgeable IT sales operation associate with 3
-              years of experience in providing tailored recommendations to
-              customers. My sales expertise has helped companies increase
-              revenues by 15% year-over-year. My values regarding personalized
-              experiences and understanding my customers can help companies
-              improve their sales performance and exceed sales goals.
+              I'm a personable, driven and knowledgeable IT sales operation
+              associate with 3 years of experience in providing tailored
+              recommendations to customers. My sales expertise has helped
+              companies increase revenues by 15% year-over-year. My values
+              regarding personalized experiences and understanding my customers
+              can help companies improve their sales performance and exceed
+              sales goals.
             </p>
             <br />
             <p>
               I am well-versed administrative assistant and document specialist
-              with five years of experience in educational institute.
-              Helping others and sharing knowledge are two core strengths. My experience, positive attitude and willingness to
-              help others allow me to excel in administrative roles.
+              with five years of experience in educational institute. Helping
+              others and sharing knowledge are two core strengths. My
+              experience, positive attitude and willingness to help others allow
+              me to excel in administrative roles.
             </p>
             <br />
             <p>
-              As a web developer, am responsible for assisting with the creation of website and updating existing web applications using scripting languages, assisting with coding, testing, design adjustment and client reviews.
+              As a web developer, am responsible for assisting with the creation
+              of website and updating existing web applications using scripting
+              languages, assisting with coding, testing, design adjustment and
+              client reviews.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -108,7 +113,7 @@
         </div>
       </div>
     </div>
-    <hr>
+    <hr />
     <!-- contact page-->
     <div id="contact">
       <div class="content">
@@ -117,10 +122,16 @@
       <div class="container">
         <div class="contactInfo">
           <div class="box">
-            <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+            <div class="icon">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
             <div class="text">
               <h3>Address</h3>
-              <p> Rue de la ferme<br> 1210 Saint Josse Ten Noode <br> Belgium</bt></p>
+              <p>
+                Rue de la ferme<br />
+                1210 Saint Josse Ten Noode <br />
+                Belgium
+              </p>
             </div>
           </div>
           <div class="box">
@@ -131,42 +142,42 @@
             </div>
           </div>
           <div class="social-icons">
-          <a href="https://www.facebook.com/"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://www.linkedin.com/feed/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/Rekhasriraman"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
+            <a href="https://www.facebook.com/" aria-label="facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" aria-label="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/feed/" aria-label="linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/Rekhasriraman" aria-label="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
         <div class="contactForm">
           <form>
             <h2>Send Message</h2>
             <div class="inputBox">
-              <input type="text" name="" required="required">
+              <input type="text" name="" required />
               <span>Full Name</span>
             </div>
             <div class="inputBox">
-              <input type="text" name="" required="required">
+              <input type="text" name="" required />
               <span>Email</span>
             </div>
             <div class="inputBox">
-              <textarea required="required"></textarea>
+              <textarea required></textarea>
               <span>Type your Message...</span>
             </div>
             <div class="inputBox">
-              <input type="submit" name="" value="Send">
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
       </div>
-</div>
+    </div>
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
